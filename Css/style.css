@@ -1,0 +1,108 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+	
+}
+.titulo{
+    font-size: xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+nav{
+	justify-content: space-evenly;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+.home{
+	width: 10px;
+	height: 50px;
+}
+.contenido{
+	width: 10px;
+	height: 50px;
+}
+.menu{
+	width: 10px;
+	height: 50px;
+}
+.vincentdos{
+	text-align: center;
+	display: block;
+}
+.vincent{
+    width: 25%;
+	height: auto;
+	text-align: center;
+}
+.contenedoruno{
+ S
+}
+.contenedordos{
+
+}
+.contemporaneo{
+
+}
+.titulo-romero{
+    text-align: center;
+}
+.contenedor-seccion-romero{
+    padding:5%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.contenedor-imagenes-romero{
+    display:flex;
+    flex-direction: column;
+    row-gap:20px;
+
+}
+
+.princessdiana, .formula, .amor, .mariposa{
+    width:50%;
+    border-radius: 100px;
+}
+.princessdiana{
+    width: 50%;
+}
+.formula{
+    width: 50%;
+}
+.amor{
+    width: 50%;
+}
+.mariposa{
+    width: 50%;
+}
+.descripcionromero{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+.clasic{
+}
+.noheestrellada{
+    width: 50%;
+    border-radius: 20%;
+}
+.thebedroom{
+    width: 50%;
+    border-radius: 20%;
+}
+.romerodetails{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+.vicentdetails{
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
