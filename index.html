@@ -4,60 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Arte</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header> El arte expresado a traves de la niñez</header>
-    <div class="home">Home</div>
-    <div class="contenido">Contenido</div>
-    <div class="menu">Menú</div>
-    <span>
+    <section>
+        <nav class="menudesplegable">  
+            <article class="home">Home</article>
+            <article class="contenido">Contenido</article>
+            <article class="menu">Menú</article>
+        </nav>
         <img src="./Imagenes-para-proyecto/vincentretrato.jpg" alt="Vincent" class="vincent">
-    </span>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <section class="contemporaneo">
-        <h1 class="romero-britto">Romero Britto</h1>
-        <br>
-        <img src="./Imagenes-para-proyecto/pricessdiana-romero.jpg" alt="Princess Diana" class="princessdiana">
-        <br>
-        <img src="./Imagenes-para-proyecto/truelove.jpg" alt="Amor" class="amor">
-        <br>
-        <img src="./Imagenes-para-proyecto/theformulaofsuccess.jpg" alt="Formula para el amor" class="formula">
-        <br>
-        <br>
-        <p class="bruno">Romero Britto is a Brazilian artist, painter, serigrapher, and sculptor. He combines elements of cubism, pop art, and graffiti painting in his work, using vibrant colors and bold patterns as a visual expression of hope, dreams, and happiness. </p>
-        <br>  
     </section>
-    <br>
-    <br>
-    <br>
-    <section class="clasico">
-        <h2 class="vincent">Vincent van gogh </h2>
-        <br>
-        <img src="./Imagenes-para-proyecto/thebedroom.jpg" alt="Bedroom" class="bedroom">
-        <br>
-        <img src="./Imagenes-para-proyecto/nocheestrellada.jpg" alt="Noche estrellada" class="noche">
-        <br>
-        <p>Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created approximately 2100 artworks, including around 860 oil paintings, most of them in the last two years of his life.</p>
+    <section class="pintores">
+        <article class="contemporaneo">
+            <h2 class="romero">Romero Britto</h2>
+            <ul class="romerofirst">
+                <li class="princessdiana">
+                    <img class="princessdianauno" src="./Imagenes-para-proyecto/pricessdiana-romero.jpg" alt="princessdiana">
+                    <p>Internationally, Romero Britto has exhibited in London, Stockholm, Madrid, Tokyo and Italy. His works are also popular with celebrities or renowned figures, some of which Romero Britto has based portraits on, such as Roger Federer, Dustin Hoffman, Arnold Schwarzenegger, Michael Jordan, Gloria Estefan, Andre Agassi, Eileen Guggenheim, David Rockfeller, and Senator Ted Kennedy. His most recent exhibition held in London was “Modern Icons”, hosted at Imitate Modern Gallery, from 16 November to 7 December 2011. The exhibition featured a series of portraits of the members of the British Royal family. The icons represented included The Duke and Duchess of Cambridge, HM Queen Elizabeth II, The Pope, Chairman Mao, Henry Matisse, Brigitte Bardot and Jesus. The portrait of the new British Royal couple was the highlight of the auction, and Britto commented: “It was wonderful to create their portrait, I just adore their love story and what they represent for all of us... love, longevity and history.”</p>
+                </li>
+                <li class="amor">
+                    <img class="amoruno" src="./Imagenes-para-proyecto/truelove.jpg" alt="amor">
+                    <p>Revealed in peaceful, playful, sensual, and perpetually joyful themes, Romero Britto's people, animals, flowers, and sunsets reveal the enthusiastic potential of everyday experiences. "To achieve such airborne emotions, Romero Britto has invented his own pictorial language. With brilliant colors, harmonious shapes, and pleasing patterns, the art of Romero Britto is an art that demands to be taken on its own terms," says Eileen Guggenheim of Britto's art in the Museo de Bellas Artes in Rio de Janeiro, Brazil.</p>
+                </li>
+                <li class="formula">
+                    <img class="formulauno" src="./Imagenes-para-proyecto/theformulaofsuccess.jpg" alt="formula">
+                    <p class="formulatext">Romero Britto's daring combinations of color, size, pattern and prospective are quite deliberate. The varied thickness of Britto's black outlines enhance the depth and form of his subjects. The precise stripes and polka dots create textures that further describe the subject matter as three-dimensional characters and places. Most distinctive is Romero Britto's own signature as a design element in each of his canvases since 1992. These elements combine to create a style that is fresh and invigorating and can be understood by all.</p>  
+                </li>
+            </ul>
+        </article>
+        <article class="clasico">
+            <h2 class="vincentuno">Vincent van gogh </h2>
+            <img src="./Imagenes-para-proyecto/thebedroom.jpg" alt="Bedroom" class="bedroom">
+            <img src="./Imagenes-para-proyecto/nocheestrellada.jpg" alt="Noche estrellada" class="noche">
+            <p>Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created approximately 2100 artworks, including around 860 oil paintings, most of them in the last two years of his life.</p>
+        </article>
     </section>
+    <form action="contacto">Contacto</form>
     <footer>
-        <address>
-            Created by <a href="kmilene69@gmail.com">Fernández Marcia</a><br>
-        </address>
-    </footer>
-    <footer>
-        <address>Contact information</address>
-    </footer>
-    <footer>
-        <address>©Copyright</address>
+        <p class="footeruno"> Created by Marcia Fernandez</p>
+        <p class="footeruno">Contact Information</p>
+        <p class="footeruno">©Copyright</p>
     </footer>
 </body>
 </html>

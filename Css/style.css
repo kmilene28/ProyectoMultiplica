@@ -1,108 +1,125 @@
-body{
-    background-color: black;
-    color: whitesmoke;
-	
-}
-.titulo{
-    font-size: xx-large;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-weight: bold;
-    font-style: italic;
+
+header{
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
 }
-nav{
-	justify-content: space-evenly;
-	text-align: center;
-	display: flex;
-	flex-direction: row;
+.menudesplegable{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: auto;
+height: auto;
 }
 .home{
-	width: 10px;
-	height: 50px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 900;
+    font-style: oblique;
 }
 .contenido{
-	width: 10px;
-	height: 50px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 900;
+    font-style: oblique;
 }
 .menu{
-	width: 10px;
-	height: 50px;
-}
-.vincentdos{
-	text-align: center;
-	display: block;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 900;
+    font-style: oblique;
 }
 .vincent{
-    width: 25%;
-	height: auto;
-	text-align: center;
-}
-.contenedoruno{
- S
-}
-.contenedordos{
-
-}
-.contemporaneo{
-
-}
-.titulo-romero{
     text-align: center;
+    display: flex;
+    width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-.contenedor-seccion-romero{
-    padding:5%;
-    display:grid;
+body{
+    background: black;
+    color: white;
+}
+.pintores{
+    display: grid;
     grid-template-columns: 50% 50%;
-    align-items: center;
 }
-.contenedor-imagenes-romero{
-    display:flex;
+.romerofirst{
+    display: flex;
     flex-direction: column;
-    row-gap:20px;
-
+    row-gap: 20px;
 }
-
-.princessdiana, .formula, .amor, .mariposa{
-    width:50%;
-    border-radius: 100px;
-}
-.princessdiana{
-    width: 50%;
-}
-.formula{
-    width: 50%;
-}
-.amor{
-    width: 50%;
-}
-.mariposa{
-    width: 50%;
-}
-.descripcionromero{
-    font-size: large;
+.romero{    
+    text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
     font-weight: lighter;
-    font-style: italic;
 }
-.clasic{
+.princessdianauno{
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
-.noheestrellada{
-    width: 50%;
-    border-radius: 20%;
+.amoruno{
+    width: 300px;
+    height: auto;
 }
-.thebedroom{
-    width: 50%;
-    border-radius: 20%;
+.formulauno{
+    width: 500px;
+    height: auto;
 }
-.romerodetails{
-    font-size: large;
+.vincentuno{
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
-    font-style: italic;
+    font-size: xx-large;
+    font-weight: bold;
 }
-.vicentdetails{
-    font-size: large;
+.bedroom{
+    width: 300px;
+    height: 20%;
+}
+.noche{
+    width: 300px;
+    height: 25%;
+}
+p{
+    text-align: justify;
+    font: bold;
+    font-size: medium;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
     font-weight: lighter;
+    height: auto;
+    width: 80%;
+}
+.formulatext{
+    text-align: justify;
+    font: bold;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    height: auto;
+    width: 80%;
+}
+.clasico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.footeruno{
+    padding: 3px;
+    color: white;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
+    text-align: center;
 }
