@@ -70,24 +70,29 @@ body{
 .amoruno{
     width: 300px;
     height: auto;
+    margin-bottom: 20px;
 }
 .formulauno{
     width: 500px;
     height: auto;
+    margin-bottom: 20px;
 }
 .vincentuno{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: xx-large;
-    font-weight: bold;
+    font-weight: lighter;
 }
 .bedroom{
-    width: 300px;
+    width: 500px;
     height: 20%;
+    margin-bottom: 20px;
 }
 .noche{
-    width: 300px;
+    width: 500px;
     height: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 p{
     text-align: justify;
@@ -114,6 +119,17 @@ p{
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
+}
+.formulariobasico{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+    font: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .footeruno{
     padding: 3px;
