@@ -12,6 +12,8 @@ flex-direction: row;
 justify-content: space-evenly;
 width: auto;
 height: auto;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 .home{
     text-align: left;
@@ -41,14 +43,20 @@ height: auto;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 body{
     background: black;
     color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .pintores{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .romerofirst{
     display: flex;
@@ -73,7 +81,7 @@ body{
     margin-bottom: 20px;
 }
 .formulauno{
-    width: 500px;
+    width: 300px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -84,12 +92,12 @@ body{
     font-weight: lighter;
 }
 .bedroom{
-    width: 500px;
+    width: 400px;
     height: 20%;
     margin-bottom: 20px;
 }
 .noche{
-    width: 500px;
+    width: 400px;
     height: 25%;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -138,4 +146,30 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     text-align: center;
+}
+@media (min-width:320px) {
+    .pintores{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    .vincentuno{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .bedroom{
+        width: 200px;
+        height: auto;
+    }
+    .noche{
+        width: 200px;
+        height: auto;
+    }
+}
+@media (min-width:1024px) {
+    .pintores{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
