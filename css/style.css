@@ -6,10 +6,7 @@ header{
     font-style: italic;
 }
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif
 }
 .home{
     text-align: left;
@@ -44,7 +41,6 @@ header{
 }
 body{
     background-color: black;
-    background: black;
     color:white;
     margin-left: 20px;
     margin-right: 20px;
@@ -99,7 +95,7 @@ body{
     margin-bottom: 20px;
     margin-top: 20px;
 }
-p{
+.pintores p{
     text-align: justify;
     font: bold;
     font-size: medium;
@@ -128,16 +124,17 @@ p{
 .contemporaneo{
     text-align: center;
 }
-.formulariobasico{
+#formulariobasico{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
     row-gap: 20px;
     font: italic;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .footeruno{
     padding: 3px;
@@ -166,7 +163,7 @@ p{
         width: 200px;
         height: auto;
     }
-    .formulariobasico{
+    #formulariobasico{
         margin-left: 30px;
     }
     body{
@@ -194,4 +191,65 @@ p{
 }
 .carousel{
     margin: 20px;
+}
+#enviomail{
+    opacity: 0;
+}
+.tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 3rem;
+    background-color:gray;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100wh;
+    background-color: gray;
+    flex-direction: column;
+    text-align: center;
+}
+#formulariobasico{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    resize: vertical;
+}
+.input-group{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 50%;
+padding: 1.5rem;
+height: 15rem;
+border: solid black;
+}
+.mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    border: solid black;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    border: solid black;
+    background-color: white;
 }
