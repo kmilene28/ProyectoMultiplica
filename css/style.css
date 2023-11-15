@@ -253,3 +253,9 @@ border: solid black;
     border: solid black;
     background-color: white;
 }
+iframe{
+    padding: 1rem;
+    margin: 0;
+    width: 500px;
+    height: 500px;
+}

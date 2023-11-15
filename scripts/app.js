@@ -1,30 +1,31 @@
-const name = document.getElementById('nombreUno');
-const telefono = document.getElementById('telefonoUno');
-const email = document.getElementById('emailUno').value;
 const form = document.getElementById('formulariobasico');
 const errorElement = document.getElementById('error');
 
-form.addEventListener('submit', (e) =>{
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const nombre = document.getElementById('nombre').value;
+    const telefono = document.getElementById('telefono').value;
+    const email = document.getElementById('email').value;
+
     let messages = [];
-    if (nombre.value === '' || nombre.value == null) {
-        messages.push('Insertar nombre');
+
+    if (nombre.length < 5 || nombre.length > 30) {
+        messages.push('El nombre debe tener entre 5 y 30 caracteres');
     }
-    if (telefono.value.length <= 6) {
-        messages.push('El telefono debe tener mas de 4 caracteres');
+
+    if (telefono.length < 4 || telefono.length > 20) {
+        messages.push('El número de teléfono debe tener entre 4 y 20 caracteres');
     }
-    if (telefono.value.length >= 20) {
-        messages.push('El telefono debe tener menos de 20 caracteres');
+
+    if (!email.includes('@')) {
+        messages.push('El email debe contener el carácter "@"');
     }
-    if (email.value === '' || email.value == null) {
-        else{
-            alert("Debe ingresar una direccion valida");
-        }
-    }
+
     if (messages.length > 0) {
-        e.preventDefault();
-    errorElement.innerText = messages.join(' , ');
+        alert(messages.join('\n'));
+    } else {
+        alert('Formulario enviado correctamente');
+        form.reset();
     }
-})
-function myFunction() {
-    alert("Su formulario fue enviado");
-}
+});
